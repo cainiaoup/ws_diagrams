@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T14:23:47.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="9J4hEamqaiaBTO22iOFt" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T14:35:04.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="domdjoAb4Y_Ibuc6eA3R" version="14.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="593" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -58,9 +58,6 @@
         <mxCell id="cvyIOPh3GwnWPAFgHhHW-8" value="输入队伍名称" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="283" y="370" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cvyIOPh3GwnWPAFgHhHW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cvyIOPh3GwnWPAFgHhHW-11" target="cvyIOPh3GwnWPAFgHhHW-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="cvyIOPh3GwnWPAFgHhHW-11" value="初始化GUI/自动分组" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="283" y="620" width="120" height="40" as="geometry" />
         </mxCell>
@@ -106,8 +103,20 @@
         <mxCell id="0Tj7AunDIOfSnBcaHioP-12" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="403" y="790" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kSTDPHfqp62krJD3lA7h-0" value="录入比分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="690" width="110" height="30" as="geometry" />
+        <mxCell id="kSTDPHfqp62krJD3lA7h-0" value="录入比分" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="288" y="690" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru5c8gdGj6xIxZ7n8cMQ-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cvyIOPh3GwnWPAFgHhHW-11" target="kSTDPHfqp62krJD3lA7h-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="710" as="sourcePoint" />
+            <mxPoint x="280" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ru5c8gdGj6xIxZ7n8cMQ-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="cvyIOPh3GwnWPAFgHhHW-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="342.8" y="720" as="sourcePoint" />
+            <mxPoint x="342.8" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
